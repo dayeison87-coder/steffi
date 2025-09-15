@@ -1,152 +1,146 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">  
-    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">⚔️VideoGame⚔️</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">⚔️VideoGame⚔️</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href=>#News</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Reseñas</a>
-                        </li>
-                        <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#reseñas">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#rack">Top Juegos</a>
-                        </li>
-                        <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#entre">Entrevistas</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Suscribete</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">FAQ</a>
-                        </li>
-                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#sub">Suscribete</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#testimonios">testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#FAQ">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--header-->
+
+    <header class="hero-video">
+        <video autoplay loop muted playsinline class="w-100 bg-video">
+            <source src="hollow-knight-moewalls-com.mp4" type="video/mp4">
+            <source src="hollow-knight-moewalls-com.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>explora el universo gamer</h1>
+            <p>Noticias, reseñas y más</p>
+            <a href="#News" class="btn btn-lg">descubres mas</a>
+        </div>
+    </header>
+
+    <!--seccion-->
+    <section id="news" class="bg-dark">
+        <div class="container">
+            <h2 class="section-title">Últimas Noticias</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 bg-dark text-white border-0">
+                        <img src="https://cdn1.epicgames.com/offer/fn/FNECO_36-10_ForbiddenFruit_EGS_Launcher_KeyArt_Blade_2560x1440_2560x1440-abce17aa0386b48069aa42c1ebf7b864"
+                            alt="fornite" class="card-img-top">
+                        <div class="card-body">
+                            <h5>iyugcyusgdfuygsuhfcukysgefhu</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                                quod.</p>
+                            <a href="#" class="btn btn-outline-light">Leer más</a>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        <!--header-->
 
-        <header class="hero-video">
-            <video autoplay loop muted playsinline class="w-100 bg-video">
-                <source src="hollow-knight-moewalls-com.mp4" type="video/mp4">
-                <source src="hollow-knight-moewalls-com.mp4" type="video/mp4">              
-            </video>
-            <div class="hero-content">
-                <h1>explora el universo gamer</h1>
-                <p>Noticias, reseñas y más</p>
-                <a href="#News" class="btn btn-lg">descubres mas</a>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 bg-dark text-white border-0">
+                        <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg" alt="fornite"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <h5>iyugcyusgdfuygsuhfcukysgefhu</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                                quod.</p>
+                            <a href="#" class="btn btn-outline-light">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 bg-dark text-white border-0">
+                        <img src="https://gaming-cdn.com/images/products/18727/orig/elden-ring-nightreign-deluxe-edition-pc-steam-cover.jpg?v=1750336166"
+                            alt="fornite" class="card-img-top">
+                        <div class="card-body">
+                            <h5>iyugcyusgdfuygsuhfcukysgefhu</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                                quod.</p>
+                            <a href="#" class="btn btn-outline-light">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </header>
+    </section>
 
-        <!--seccion-->
-        <section id="news" class="bg-dark">
-            <div class="container">
-                <h2 class="section-title">Últimas Noticias</h2>
-                <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-                            <div class="card h-100 bg-dark text-white border-0">
-                                <img src = "https://cdn1.epicgames.com/offer/fn/FNECO_36-10_ForbiddenFruit_EGS_Launcher_KeyArt_Blade_2560x1440_2560x1440-abce17aa0386b48069aa42c1ebf7b864" alt="fornite" class="card-img-top">
-                                <div class="card-body">
-                                    <h5>iyugcyusgdfuygsuhfcukysgefhu</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                                    <a href="#" class="btn btn-outline-light">Leer más</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-                            <div class="card h-100 bg-dark text-white border-0">
-                                <img src = "https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg" alt="fornite" class="card-img-top">
-                                <div class="card-body">
-                                    <h5>iyugcyusgdfuygsuhfcukysgefhu</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                                    <a href="#" class="btn btn-outline-light">Leer más</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-                            <div class="card h-100 bg-dark text-white border-0">
-                                <img src = "https://gaming-cdn.com/images/products/18727/orig/elden-ring-nightreign-deluxe-edition-pc-steam-cover.jpg?v=1750336166" alt="fornite" class="card-img-top">
-                                <div class="card-body">
-                                    <h5>iyugcyusgdfuygsuhfcukysgefhu</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                                    <a href="#" class="btn btn-outline-light">Leer más</a>
-                                </div>
-                            </div>
-                        </div>
-                
-            </div>
-        </section>
-
-        <section id="reseñas" class="bg-dark">
-            <div class="container">
-                <h2 class="section-title">Últimas Reseñas</h2>
-                <div closs="row">
+    <section id="reseñas" class="bg-dark">
+        <div class="container">
+            <h2 class="section-title">Últimas Reseñas</h2>
+            <div closs="row">
 
                 <!--reseñas-->
 
                 <div class="col mb-3">
                     <div class="card h-100 text-white cardResena ">
                         <div class="row bg -dark ">
-                            <div class="col-md-4 " >
-                                <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg" class="img-fluid rounded-start" alt="...">
+                            <div class="col-md-4 ">
+                                <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg"
+                                    class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5>titulo</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ipsum, reiciendis accusantium deleniti ab illum. Accusantium ducimus velit veritatis, nesciunt voluptates quos exercitationem ev</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ipsum, reiciendis
+                                        accusantium deleniti ab illum. Accusantium ducimus velit veritatis, nesciunt
+                                        voluptates quos exercitationem ev</p>
                                     <samp>⭐⭐⭐⭐⭐</samp>
                                     <a href="#" class="btn btn-outline-light">Leer más</a>
                                 </div>
                             </div>
 
-                            
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col mb-3">
-                    <div class="card h-100 text-white cardResena">          
-                        <div class="row bg -dark">
-                            <div class="col-md-4">
-                                <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5>titulo</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ipsum, reiciendis accusantium deleniti ab illum. Accusantium ducimus velit veritatis, nesciunt voluptates quos exercitationem ev</p>
-                                    <samp>⭐⭐⭐⭐⭐</samp>
-                                    <a href="#" class="btn btn-outline-light">Leer más</a>
-                                </div>
-                            </div>
-
-                            
                         </div>
                     </div>
                 </div>
@@ -155,18 +149,44 @@
                     <div class="card h-100 text-white cardResena">
                         <div class="row bg -dark">
                             <div class="col-md-4">
-                                <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg" class="img-fluid rounded-start" alt="...">
+                                <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg"
+                                    class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5>titulo</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ipsum, reiciendis accusantium deleniti ab illum. Accusantium ducimus velit veritatis, nesciunt voluptates quos exercitationem ev</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ipsum, reiciendis
+                                        accusantium deleniti ab illum. Accusantium ducimus velit veritatis, nesciunt
+                                        voluptates quos exercitationem ev</p>
                                     <samp>⭐⭐⭐⭐⭐</samp>
                                     <a href="#" class="btn btn-outline-light">Leer más</a>
                                 </div>
                             </div>
 
-                            
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-3">
+                    <div class="card h-100 text-white cardResena">
+                        <div class="row bg -dark">
+                            <div class="col-md-4">
+                                <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5>titulo</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ipsum, reiciendis
+                                        accusantium deleniti ab illum. Accusantium ducimus velit veritatis, nesciunt
+                                        voluptates quos exercitationem ev</p>
+                                    <samp>⭐⭐⭐⭐⭐</samp>
+                                    <a href="#" class="btn btn-outline-light">Leer más</a>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -175,178 +195,371 @@
                     <div class="card h-100 text-white cardResena">
                         <div class="row bg -dark">
                             <div class="col-md-4">
-                                <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg" class="img-fluid rounded-start" alt="...">
+                                <img src="https://media.vandal.net/i/640x360/8-2024/202481919464914_1.jpg"
+                                    class="img-fluid rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5>titulo</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ipsum, reiciendis accusantium deleniti ab illum. Accusantium ducimus velit veritatis, nesciunt voluptates quos exercitationem ev</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ipsum, reiciendis
+                                        accusantium deleniti ab illum. Accusantium ducimus velit veritatis, nesciunt
+                                        voluptates quos exercitationem ev</p>
                                     <samp>⭐⭐⭐⭐⭐</samp>
                                     <a href="#" class="btn btn-outline-light">Leer más</a>
                                 </div>
                             </div>
 
-                            
+
                         </div>
                     </div>
                 </div>
-        </section>
+    </section>
 
-        <section id = "#rack" class="text-white bg-dark text-center">
-            <div class="container">
-                <h2>⭐⚔️top juegos populares</h2>
-                <div class="row">
+    <section id="rack" class="text-white bg-dark text-center">
+        <div class="container">
+            <h2>⭐⚔️top juegos populares</h2>
+            <div class="row">
 
-                    <div class="col-md-4 mb-4">
-                        <div class="card bg-dark text-white border-0 h-100 shadow">
-                            <img src = "https://i.ytimg.com/vi/-5YtSVYWtwc/maxresdefault.jpg"nalt=""class = "card-imd-top">
-                            <div class="card-body">
-                                <h5>#1 Hollow Knight: Silksong</h5>
-                                <p class="card-title">Secuela muy esperada del galardonado Hollow Knight, esta entrega ofrece una jugabilidad refinada, con combate más ágil, entornos visualmente ricos y un diseño de niveles que expande el universo original, manteniendo la esencia metroidvania con mejoras notables..</p>
-                                <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <div  class="progress-bar bg-primary" style="width: 93%;">93%</div>
-                                
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-white border-0 h-100 shadow">
+                        <img src="https://i.ytimg.com/vi/-5YtSVYWtwc/maxresdefault.jpg" nalt="" class="card-imd-top">
+                        <div class="card-body">
+                            <h5>#1 Hollow Knight: Silksong</h5>
+                            <p class="card-title">Secuela muy esperada del galardonado Hollow Knight, esta entrega
+                                ofrece una jugabilidad refinada, con combate más ágil, entornos visualmente ricos y un
+                                diseño de niveles que expande el universo original, manteniendo la esencia metroidvania
+                                con mejoras notables..</p>
+                            <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-primary" style="width: 93%;">93%</div>
+
+                            </div>
+                            <span class="small text-muted">basado en 10,000 votos</span>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-white border-0 h-100 shadow">
+                        <img src="https://s.yimg.com/ny/api/res/1.2/GWw6pzodoidf2_zZ8_qj4g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/es/levelup_525/4671b09a6966134cfc044508c1c52a82"
+                            nalt="" class="card-imd-top">
+                        <div class="card-body">
+                            <h5>#2 Assassin’s Creed Shadows</h5>
+                            <p class="card-title">gil de Iga, y Yasuke, un samurái inspirado en la leyenda histórica.
+                                Combina sigilo, combate y exploración dentro de un mundo abierto con fuerte enfoque
+                                narrativo.</p>
+                            <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-primary" style="width: 90%;">90%</div>
+
+                            </div>
+                            <span class="small text-muted">basado en 10,000 votos</span>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark text-white border-0 h-100 shadow">
+                        <img src="https://cdn1.epicgames.com/spt-assets/330dace5ffc74156987f91d454ac544b/project-w-1kt2x.jpg"
+                            nalt="" class="card-imd-top">
+                        <div class="card-body">
+                            <h5>#3 Clair Obscur: Expedition 33</h5>
+                            <p class="card-title">RPG independiente con ambientación en una fantasía histórica inspirada
+                                en la Belle Époque francesa. Destaca por su estética llamativa, narrativa emocional,
+                                combate estratégico por turnos y un mundo que combina arte y fantasía con temas
+                                profundos como el duelo y la memoria.</p>
+                            <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-primary" style="width: 87%;">87%</div>
+
+                            </div>
+                            <span class="small text-muted">basado en 10,000 votos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card bg-dark text-white border-0 h-100 shadow">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg?t=1751379489"
+                            nalt="" class="card-imd-top">
+                        <div class="card-body">
+                            <h5>#4 Blue Prince 33</h5>
+                            <p class="card-title">Juego indie aclamado por su propuesta fresca y narrativa evocadora.
+                                Aunque los detalles son escasos, destaca por una estética cuidada y enfoque artístico,
+                                lo que le ha valido comparación con las joyas del género indie y ha capturado tanto la
+                                atención de la crítica como de la comunidad.</p>
+                            <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-primary" style="width: 84%;">84%</div>
+
+                            </div>
+                            <span class="small text-muted">basado en 10,000 votos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card bg-dark text-white border-0 h-100 shadow">
+                        <img src="https://areajugones.sport.es/wp-content/uploads/2025/03/split-fiction-1560x880.jpg.webp"
+                            nalt="" class="card-imd-top">
+                        <div class="card-body">
+                            <h5>#5 Split Fiction</h5>
+                            <p class="card-title">Aventura cooperativa para PS5, con un enfoque en la narrativa
+                                compartida y el juego entre amigos. Ha sido elogiada por su dinámica de colaboración,
+                                estilo artístico y diseño creativo, convirtiéndose en una de las experiencias más
+                                atractivas de su género.</p>
+                            <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-primary" style="width: 87%;">87%</div>
+                            </div>
+                            <span class="small text-muted">basado en 10,000 votos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="entre" class="bg-dark text-white">
+        <div class="container text-center">
+            <h2>🎙️ Entrevistas exclusivas</h2>
+            <div class="row">
+
+
+                <div class="col-md-6">
+                    <div class="card segundocard mb-2">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="https://preview.redd.it/ari-gibson-creator-of-the-iconic-hollow-knight-franchise-v0-xfohmaopit8e1.jpeg?auto=webp&s=718c7b0f8cd265f5a56cffef0203e309142b9a25"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Entrevista con el creador de Split Fiction</h5>
+                                    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum suscipit
+                                            vero eos similique ea. Veniam veritatis voluptatibus dolorem quis a earum
+                                            culpa numquam aliquam! Iusto numquam quo optio ipsam.</i></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi sunt
+                                        assumenda nulla, sapiente doloribus. Dicta suscipit accusamus ut ratione iure.
+                                        Numquam odit reiciendis facilis iusto impedit neque quasi? Exercitationem!</p>
+                                    <a href="" class="btn btn-outline-light">Leer más</a>
                                 </div>
-                                <span class="small text-muted">basado en 10,000 votos</span>
-
-                                
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4 mb-4">
-                        <div class="card bg-dark text-white border-0 h-100 shadow">
-                            <img src = "https://s.yimg.com/ny/api/res/1.2/GWw6pzodoidf2_zZ8_qj4g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/es/levelup_525/4671b09a6966134cfc044508c1c52a82"nalt=""class = "card-imd-top">
-                            <div class="card-body">
-                                <h5>#2 Assassin’s Creed Shadows</h5>
-                                <p class="card-title">gil de Iga, y Yasuke, un samurái inspirado en la leyenda histórica. Combina sigilo, combate y exploración dentro de un mundo abierto con fuerte enfoque narrativo.</p>
-                                <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <div  class="progress-bar bg-primary" style="width: 90%;">90%</div>
-                                
+                <div class="col-md-6">
+                    <div class="car segundocard mb-2">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="https://s.yimg.com/ny/api/res/1.2/GWw6pzodoidf2_zZ8_qj4g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/es/levelup_525/4671b09a6966134cfc044508c1c52a82"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Entrevista con el creador de Split Fiction</h5>
+                                    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum suscipit
+                                            vero eos similique ea. Veniam veritatis voluptatibus dolorem quis a earum
+                                            culpa numquam aliquam! Iusto numquam quo optio ipsam.</i></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi sunt
+                                        assumenda nulla, sapiente doloribus. Dicta suscipit accusamus ut ratione iure.
+                                        Numquam odit reiciendis facilis iusto impedit neque quasi? Exercitationem!</p>
+                                    <a href="" class="btn btn-outline-light">Leer más</a>
                                 </div>
-                                <span class="small text-muted">basado en 10,000 votos</span>
-
-                                
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-md-4 mb-4">
-                        <div class="card bg-dark text-white border-0 h-100 shadow">
-                            <img src = "https://cdn1.epicgames.com/spt-assets/330dace5ffc74156987f91d454ac544b/project-w-1kt2x.jpg"nalt=""class = "card-imd-top">
-                            <div class="card-body">
-                                <h5>#3 Clair Obscur: Expedition 33</h5>
-                                <p class="card-title">RPG independiente con ambientación en una fantasía histórica inspirada en la Belle Époque francesa. Destaca por su estética llamativa, narrativa emocional, combate estratégico por turnos y un mundo que combina arte y fantasía con temas profundos como el duelo y la memoria.</p>
-                                <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <div  class="progress-bar bg-primary" style="width: 87%;">87%</div>
-                                
-                                </div>
-                                <span class="small text-muted">basado en 10,000 votos</span>
+                <div class="col-md-6">
+                    <div class="car segundocard mb-2">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="https://i.redd.it/5ql036rikvye1.png" class="img-fluid rounded-start"
+                                    alt="...">
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 mb-4">
-                        <div class="card bg-dark text-white border-0 h-100 shadow">
-                            <img src = "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/header.jpg?t=1751379489"nalt=""class = "card-imd-top">
-                            <div class="card-body">
-                                <h5>#4 Blue Prince 33</h5>
-                                <p class="card-title">Juego indie aclamado por su propuesta fresca y narrativa evocadora. Aunque los detalles son escasos, destaca por una estética cuidada y enfoque artístico, lo que le ha valido comparación con las joyas del género indie y ha capturado tanto la atención de la crítica como de la comunidad.</p>
-                                <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <div  class="progress-bar bg-primary" style="width: 84%;">84%</div>
-                                
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Entrevista con el creador de Split Fiction</h5>
+                                    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum suscipit
+                                            vero eos similique ea. Veniam veritatis voluptatibus dolorem quis a earum
+                                            culpa numquam aliquam! Iusto numquam quo optio ipsam.</i></p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi sunt
+                                        assumenda nulla, sapiente doloribus. Dicta suscipit accusamus ut ratione iure.
+                                        Numquam odit reiciendis facilis iusto impedit neque quasi? Exercitationem!</p>
+                                    <a href="" class="btn btn-outline-light">Leer más</a>
                                 </div>
-                                <span class="small text-muted">basado en 10,000 votos</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 mb-4">
-                        <div class="card bg-dark text-white border-0 h-100 shadow">
-                            <img src = "https://areajugones.sport.es/wp-content/uploads/2025/03/split-fiction-1560x880.jpg.webp"nalt=""class = "card-imd-top">
-                            <div class="card-body">
-                                <h5>#5 Split Fiction</h5>
-                                <p class="card-title">Aventura cooperativa para PS5, con un enfoque en la narrativa compartida y el juego entre amigos. Ha sido elogiada por su dinámica de colaboración, estilo artístico y diseño creativo, convirtiéndose en una de las experiencias más atractivas de su género.</p>
-                                <div class="progress" role="progressbar" aria-label="success axample" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                    <div  class="progress-bar bg-primary" style="width: 87%;">87%</div>
-                                </div>
-                                <span class="small text-muted">basado en 10,000 votos</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section id="#entre" class="bg-dark text-white">
-            <div class="container text-center">
-                <h2>🎙️ Entrevistas exclusivas</h2>
-                <div class="row">
-
-                    
-                    <div class="col-md-6">
-                        <div class="card segundocard mb-2">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <img src="https://preview.redd.it/ari-gibson-creator-of-the-iconic-hollow-knight-franchise-v0-xfohmaopit8e1.jpeg?auto=webp&s=718c7b0f8cd265f5a56cffef0203e309142b9a25" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Entrevista con el creador de Split Fiction</h5>
-                                        <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum suscipit vero eos similique ea. Veniam veritatis voluptatibus dolorem quis a earum culpa numquam aliquam! Iusto numquam quo optio ipsam.</i></p>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi sunt assumenda nulla, sapiente doloribus. Dicta suscipit accusamus ut ratione iure. Numquam odit reiciendis facilis iusto impedit neque quasi? Exercitationem!</p>
-                                        <a href="" class="btn btn-outline-light">Leer más</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="car segundocard mb-2">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <img src="https://s.yimg.com/ny/api/res/1.2/GWw6pzodoidf2_zZ8_qj4g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/es/levelup_525/4671b09a6966134cfc044508c1c52a82" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Entrevista con el creador de Split Fiction</h5>
-                                        <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum suscipit vero eos similique ea. Veniam veritatis voluptatibus dolorem quis a earum culpa numquam aliquam! Iusto numquam quo optio ipsam.</i></p>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi sunt assumenda nulla, sapiente doloribus. Dicta suscipit accusamus ut ratione iure. Numquam odit reiciendis facilis iusto impedit neque quasi? Exercitationem!</p>
-                                        <a href="" class="btn btn-outline-light">Leer más</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="car segundocard mb-2">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <img src="https://i.redd.it/5ql036rikvye1.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Entrevista con el creador de Split Fiction</h5>
-                                        <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum suscipit vero eos similique ea. Veniam veritatis voluptatibus dolorem quis a earum culpa numquam aliquam! Iusto numquam quo optio ipsam.</i></p>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi sunt assumenda nulla, sapiente doloribus. Dicta suscipit accusamus ut ratione iure. Numquam odit reiciendis facilis iusto impedit neque quasi? Exercitationem!</p>
-                                        <a href="" class="btn btn-outline-light">Leer más</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        </div>
+    </section>
 
 
+    <section id="sub" class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h2 class="section-title">📬Suscríbete a nuestro boletín</h2>
+            <div class="row text-center">
+                <p>Recibe las últimas noticias y actualizaciones directamente en tu correo.</p>
+                <div class="col-md-6 offset-md-3">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 bg-black text-white" type="search"
+                            placeholder="Ingresa tu correo" aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">Suscribirse</button>
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
+        <hr my-5 border-secundary>
+    </section>
+
+    <section id=testimonios class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h2 class="section-title">💬 Testimonios</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-white h-100 shadow">
+                        <div class="card-body">
+                            <p>"Me encanta este sitio web. Siempre encuentro las últimas noticias sobre mis juegos
+                                favoritos y las reseñas son muy útiles para decidir qué jugar a continuación."</p>
+                            <h5>- Juan Pérez</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-white h-100 shadow">
+                        <div class="card-body">
+                            <p>"Las entrevistas con desarrolladores son fascinantes. Me gusta conocer el proceso
+                                creativo detrás de los juegos que amo."</p>
+                            <h5>- María Gómez</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-white h-100 shadow">
+                        <div class="card-body">
+                            <p>"El boletín es una excelente manera de mantenerse informado. Lo recibo cada semana y
+                                siempre hay algo interesante."</p>
+                            <h5>- Carlos López</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="FAQ" class="bg-dark text-white text-center py-5">
+
+        <h2 class="section-title">❓ Preguntas Frecuentes (FAQ)</h2>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <div class="accordion" id="accordionExample ">
+            <div class="accordion " id="accordionExample">
+                <div class="accordion-item bg-black text-white">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button bg-black text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item’s accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It’s also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-black text-white">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item’s accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It’s also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-black text-white">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It’s also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-    </body>
+    <footer class="bg-dark text-light py-4">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h3>🎮 zona gamer</h3>
+                <p>Tu fuente confiable de noticias y reseñas de videojuegos.</p>
+            </div>
+            <div class="col col-md-4 text-center">
+                <h3 class="text-light text-center">Navegación</h3>
+                <ul class="list-unstyled">
+                    </a><li><a href="#news" class="text-light text-decoration-none">🗞️Noticias</a></li>
+                    <li><a href="#Reseñas" class="text-light text-decoration-none">🎮Reseñas</a></li>
+                    <li><a href="#top-juegos" class="text-light text-decoration-none">⭐Top Juegos</a></li>
+                    <li><a href="#entrevistas" class="text-light text-decoration-none">🎙️Entrevistas</a></li>
+                    <li><a href="#FAQ" class="text-light text-decoration-none">⁉🤔FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-center">
+                <h3 class="text-light">Redes Sociales</h3>
+                <a href="#" class="text-prymary"><i  class="bi bi-facebook"></i></a>
+                <a href="#" class="text-warning"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-prymary"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-prymary"><i class="bi bi-tiktok"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <p>&copy; 2025 Zona Gamer. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+</body>
 
 </html>
